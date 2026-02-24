@@ -1,0 +1,26 @@
+# Datasets - Never push raw image data
+dataset/
+
+# Model files (large binaries)
+*.keras
+*.h5
+*.pth
+*.pt
+*.pkl
+*.onnx
+*.pb
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+
+# Documents
+*.pdf
